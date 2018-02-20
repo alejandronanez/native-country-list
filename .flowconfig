@@ -50,5 +50,12 @@ suppress_comment=\\(.\\|\n\\)*\\$FlowIssue\\((\\(<VERSION>\\)? *\\(site=[a-z,_]*
 suppress_comment=\\(.\\|\n\\)*\\$FlowFixedInNextDeploy
 suppress_comment=\\(.\\|\n\\)*\\$FlowExpectedError
 
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=./src
+module.system.node.resolve_dirname=src/types
+module.system.node.resolve_dirname=src/components
+module.system.node.resolve_dirname=src/utils
+
+
 [version]
 ^0.63.0
