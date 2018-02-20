@@ -2,10 +2,7 @@
   "presets": ["react-native"],
   "plugins": [
     ["module-resolver", {
-      "root": ["./src"],
-      "alias": {
-        "types": "./src/types"
-      }
+      "root": ["./src"]
     }]
   ]
 }
