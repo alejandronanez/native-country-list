@@ -48,3 +48,7 @@ export type Country = {
   flag: string,
   regionalBlocks: Array<RegionalBlock>
 };
+
+export type CountryHashMap = {
+  [key: string]: Array<Country>
+};
