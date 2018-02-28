@@ -8,7 +8,7 @@ export async function getCountries() {
   return await axios.get(API);
 }
 
-function countriesHasher(countries: Array<Country>) {
+export function countriesHasher(countries: Array<Country>) {
   return countries.reduce(
     (countryHash, country) => ({
       ...countryHash,
