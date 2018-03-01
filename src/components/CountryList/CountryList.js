@@ -1,7 +1,6 @@
 // @flow
 import React, { Component } from 'react';
 import { Content, List, ListItem, Text } from 'native-base';
-import SvgUri from 'react-native-svg-uri';
 import type {
   CountryHashMap,
   Country
@@ -27,7 +26,6 @@ export class CountryList extends Component<Props> {
       const continentCountries = countriesInContinent.map(
         (country: Country, index) => (
           <ListItem keyof={index}>
-            <SvgUri width="200" height="200" source={{ uri: country.flag }} />
             <Text>{country.name}</Text>
           </ListItem>
         )
