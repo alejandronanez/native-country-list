@@ -2,9 +2,10 @@
 
 import React, { Component } from 'react';
 import { Container } from 'native-base';
-import { Header } from 'nativeCountryList/src/components/Header/Header';
 import type { CountryHashMap } from 'nativeCountryList/src/types/country';
 import { getCountries } from 'nativeCountryList/src/utils/api';
+import { Header } from 'nativeCountryList/src/components/Header/Header';
+import { CountryList } from 'nativeCountryList/src/components/CountryList/CountryList';
 
 type Props = {};
 type State = {
@@ -26,6 +27,7 @@ export default class App extends Component<Props, State> {
     return (
       <Container>
         <Header />
+        <CountryList countries={this.state.countries} />
       </Container>
     );
   }
