@@ -26,7 +26,9 @@ export class CountryList extends Component<Props> {
       const continentCountries = countriesInContinent.map(
         (country: Country, index) => (
           <ListItem keyof={index}>
-            <Text>{country.name}</Text>
+            <Text>
+              {country.name} - {country.capital}
+            </Text>
           </ListItem>
         )
       );
