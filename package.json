@@ -21,7 +21,8 @@
     "axios": "^0.18.0",
     "native-base": "^2.3.9",
     "react": "16.2.0",
-    "react-native": "0.53.3"
+    "react-native": "0.53.3",
+    "react-native-remote-svg": "^1.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",

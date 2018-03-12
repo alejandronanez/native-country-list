@@ -4933,6 +4933,10 @@ react-native-keyboard-aware-scroll-view@0.4.2:
     prop-types "^15.6.0"
     react-native-iphone-x-helper "^1.0.1"
 
+react-native-remote-svg@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-remote-svg/-/react-native-remote-svg-1.1.1.tgz#7608092c4c1bbfc1753f37b7ecda82284b5f892a"
+
 react-native-vector-icons@~4.4.2:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-4.4.3.tgz#9e847b8c432a17e5e0ffd60ccf09f3112a18b9df"
